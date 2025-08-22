@@ -31,7 +31,7 @@ import Image from "next/image"
 const items = [
   { title: "Home", url: "/", icon: Home },
   { title: "About", url: "/about", icon: Inbox },
-  { title: "Calendar", url: "#", icon: Calendar },
+  { title: "Calendar", url: "/calender", icon: Calendar },
   { title: "Search", url: "#", icon: Search },
   { title: "Settings", url: "#", icon: Settings },
 ]
