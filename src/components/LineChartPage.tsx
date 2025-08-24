@@ -21,7 +21,7 @@ const chartConfig = {
   },
 } satisfies ChartConfig
 
-const BarChartPage = () => {
+const LineChartPage = () => {
   return (
    <ChartContainer config={chartConfig} className="mt-6">
       <LineChart
@@ -65,4 +65,4 @@ const BarChartPage = () => {
   )
 }
 
-export default BarChartPage
+export default LineChartPage
